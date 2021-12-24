@@ -13,7 +13,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -30,19 +29,14 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+![stat preview desktop design](https://user-images.githubusercontent.com/68693000/147364510-668b2c83-8c45-4de2-931b-5d85d613decb.jpg)
+![stats preview mobile design](https://user-images.githubusercontent.com/68693000/147364517-ab2c0292-ee90-4ec8-8cca-5290540ae9b5.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Nnenna-udefi/stats-preview-card.git
+- Live Site URL: https://stats-preview-card-lovat.vercel.app/
 
 ## My process
 
@@ -69,8 +63,8 @@ Work on improving my CSS skill and continue learning Javascript
 - Frontend Mentor - https://www.frontendmentor.io/profile/nnenna-udefi
 - Twitter - https://www.twitter.com/ninymiriam
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-thanks to @FrontEnd Mentor and @SideHustle Internship
+Thanks to @FrontEnd Mentor and @SideHustle Internship
+
