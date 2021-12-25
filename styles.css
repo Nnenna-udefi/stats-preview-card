@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body{
+   background-color:hsl(233, 47%, 7%);
+   margin: auto;
+   padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family: 'Inter', 'Lexend Deca';
+    
+    
+}
+.card{
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 20px;
+   
+}
+
+
+header{
+    background-color: hsl(277, 64%, 61%);
+}
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.35;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+      
+}
+.head{
+    display:none;
+}
+
+.company{
+    padding: 10px;
+    text-align: center;
+}
+.main-body{
+    padding: 25px;
+    text-align: center;
+   
+}
+.real{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding:20px;
+    line-height: 2rem;
+}
+
+.main{
+
+    font-size: 45px;
+    
+}
+h1{
+    color:hsl(0, 0%, 100%);
+}
+.violet{
+    color: hsl(277, 64%, 61%);
+}
+
+.para{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}
+footer{
+    padding:40px;
+    color:white;
+    text-align: center;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 700px) {
+body{
+    padding:200px;
+    margin:auto;
+}
+
+
+.card{
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 20px;
+    column-count: 2;
+    
+ 
+}
+.main-body{
+    
+    text-align: left;
+    
+}
+.content{
+    padding:100px;
+}
+.company{
+    flex-direction: column;
+    column-count: 3;
+    column-gap: 10px;
+    text-align: left;
+    padding-top:250px;
+    
+}
+h1{
+    color:hsl(0, 0%, 100%);
+    font-size:40px;
+    letter-spacing: .07rem;
+    line-height: 2.74rem;
+}
+header{
+    display: none;
+}
+.head{
+    background-color: hsl(277, 64%, 61%);
+    display: block;
+    height: 100vh;
+   
+}
+img{
+    display: block;
+    object-fit: cover;
+    opacity: 0.35;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.first{
+    margin-top:-25px;
+}
+.real{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 18px;
+    line-height: 2rem;
+    margin-left: -15px;;
+    
+}
+
+.violet{
+    color: hsl(277, 64%, 61%);
+}
+
+.para{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    margin-top: -10px;
+    font-size: 14px;     
+}
+
+}
