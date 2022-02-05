@@ -29,8 +29,9 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
-!![stats preview mobile design](https://user-images.githubusercontent.com/68693000/152638509-abe08444-2084-4e1b-bfde-605839f924ad.jpg)
-![stat preview desktop design](https://user-images.githubusercontent.com/68693000/152638513-6ba1328b-ee96-4a9b-b4ba-47a5f1c383cc.jpg)
+!![stat-desktop-image](https://user-images.githubusercontent.com/68693000/152638559-56bb9512-525b-45b1-b9ff-d11b7b05575f.jpg)
+![stats-mobile-image](https://user-images.githubusercontent.com/68693000/152638588-aa9d9b41-a89b-4380-af53-3eecf5aec1e9.jpg)
+
 
 
 
