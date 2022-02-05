@@ -3,58 +3,50 @@
 body{
    background-color:hsl(233, 47%, 7%);
    margin: auto;
-   padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 60px;
-    padding-left: 60px;
-    font-family: 'Inter', 'Lexend Deca';
-    
-    
+   padding: 8rem 2rem;
+   display: flex;
+   justify-content: center;
+   font-size: .95rem;
+   font-family: 'Inter', 'Lexend Deca'; 
 }
 .card{
     background-color: hsl(244, 38%, 16%);
-    border-radius: 20px;
-   
+    border-radius: 20px;  
 }
-
-
-header{
+.header{
     background-color: hsl(277, 64%, 61%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-img{
+.header img{
     display: block;
     width: 100%;
     height: 100%;
     opacity: 0.35;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-      
+    border-top-right-radius: 20px;     
+}
+img{
+    max-width: 100%;
 }
 .head{
     display:none;
 }
 
 .company{
-    padding: 10px;
+    padding: 0.7rem;
     text-align: center;
 }
-.main-body{
-    padding: 25px;
+.card-title{
+    padding: 1.6rem;
     text-align: center;
    
 }
 .real{
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 15px;
-    padding:20px;
     line-height: 2rem;
 }
 
-.main{
-
-    font-size: 45px;
-    
-}
 h1{
     color:hsl(0, 0%, 100%);
 }
@@ -65,78 +57,71 @@ h1{
 .para{
     color: hsla(0, 0%, 100%, 0.75);
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.7rem;
     
 }
 footer{
-    padding:40px;
+    padding:2.5rem;
     color:white;
     text-align: center;
-    font-size: 13px;
+    font-size: 0.8rem;
+}
+a{
+    color: hsl(277, 64%, 61%);
 }
 
 @media screen and (min-width: 700px) {
-body{
-    padding:200px;
-    margin:auto;
-}
-
-
 .card{
     background-color: hsl(244, 38%, 16%);
     border-radius: 20px;
-    column-count: 2;
-    
- 
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
 }
-.main-body{
-    
+.card-title{
     text-align: left;
-    
+    padding: 1.6rem 0;
 }
 .content{
-    padding:100px;
+    padding: 2rem 4rem;
 }
 .company{
-    flex-direction: column;
-    column-count: 3;
-    column-gap: 10px;
+    display: flex;
+    justify-content: space-between;
     text-align: left;
-    padding-top:250px;
-    
+    padding: 0.7rem 1rem 0.7rem 0;
+}
+.company h1{
+    font-size: 1.8rem;
 }
 h1{
     color:hsl(0, 0%, 100%);
-    font-size:40px;
+    font-size:2.5rem;
     letter-spacing: .07rem;
-    line-height: 2.74rem;
 }
-header{
+.header{
     display: none;
 }
 .head{
     background-color: hsl(277, 64%, 61%);
     display: block;
-    height: 100vh;
-   
-}
-img{
-    display: block;
-    object-fit: cover;
-    opacity: 0.35;
-    border-top-left-radius: 0px;
+    width: 100%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.first{
-    margin-top:-25px;
+.head img{
+    display: block;
+    object-fit: cover;
+    opacity: 0.35;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 .real{
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 18px;
-    line-height: 2rem;
-    margin-left: -15px;;
-    
+    font-size: 1.1rem;
 }
 
 .violet{
@@ -146,8 +131,7 @@ img{
 .para{
     color: hsla(0, 0%, 100%, 0.75);
     text-transform: uppercase;
-    margin-top: -10px;
-    font-size: 14px;     
+    font-size: 1rem;     
 }
 
 }
